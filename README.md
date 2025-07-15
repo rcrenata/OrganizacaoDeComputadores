@@ -23,7 +23,7 @@ Este projeto aborda os princípios fundamentais da computação, desde a lógica
 * **Extensão:** Uma versão aprimorada do processador de 8 bits, com barramentos e registradores expandidos para 16 bits.
 * **Implicações:** Aumenta a capacidade de endereçamento de memória e a precisão das operações aritméticas. 
 
-### Montador (`montador.py`)
+### Montador
 
 O `montador.py` é uma ferramenta que traduz o código Assembly (mais legível para humanos) para o código de máquina (sequências de bytes hexadecimais) que o processador entende.
 
