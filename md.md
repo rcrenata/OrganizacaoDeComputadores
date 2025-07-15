@@ -9,15 +9,15 @@
 
 ## Visão Geral do Projeto
 
-[cite_start]Este projeto aborda os princípios fundamentais da computação, desde a lógica de portas (baseada nas NAND Gates, conforme o livro But How Do It Know?) até a execução de programas em uma arquitetura de CPU simples.
+Este projeto aborda os princípios fundamentais da computação, desde a lógica de portas (baseada nas NAND Gates, conforme o livro But How Do It Know?) até a execução de programas em uma arquitetura de CPU simples.
 
 ### Processador de 8 bits
 
-* [cite_start]**Arquitetura:** CPU de 8 bits com registradores de propósito geral (`r0`-`r3`), acumulador (`ACC`), registrador de endereço de memória (`MAR`), registrador de instrução (`IR`), e registrador de endereço de instrução (`IAR`).
-* [cite_start]**Memória:** RAM de 256 bytes (endereços de 0x00 a 0xFF).
-* [cite_start]**Unidade Lógica Aritmética (ALU):** Implementa operações básicas como ADD, SHR, SHL, NOT, AND, OR, XOR, CMP.
-* [cite_start]**Controle de Fluxo:** Suporte a saltos incondicionais (`JMP`, `JMPR`) e condicionais (`JA`, `JE`, `JZ`, etc.).
-* [cite_start]**I/O:** Instruções de entrada e saída (`IN`, `OUT`) para comunicação com periféricos, no projeto foram adicionados uma porta para entrada/saída, teclado e monitor simulados.
+* **Arquitetura:** CPU de 8 bits com registradores de propósito geral (`r0`-`r3`), acumulador (`ACC`), registrador de endereço de memória (`MAR`), registrador de instrução (`IR`), e registrador de endereço de instrução (`IAR`).
+* **Memória:** RAM de 256 bytes (endereços de 0x00 a 0xFF).
+* **Unidade Lógica Aritmética (ALU):** Implementa operações básicas como ADD, SHR, SHL, NOT, AND, OR, XOR, CMP.
+* **Controle de Fluxo:** Suporte a saltos incondicionais (`JMP`, `JMPR`) e condicionais (`JA`, `JE`, `JZ`, etc.).
+* **I/O:** Instruções de entrada e saída (`IN`, `OUT`) para comunicação com periféricos, no projeto foram adicionados uma porta para entrada/saída, teclado e monitor simulados.
 
 ### Processador de 16 bits
 
