@@ -3,10 +3,9 @@
 ## Conteúdo do Repositório
 
 * **`montador.py`**: O montador desenvolvido em Python.
-* **`circuitos/`**: Pasta contendo os arquivos `.circ` do Logisim para os projetos do processador.
-    * `processador_8bits.circ`: O circuito do processador de 8 bits.
-    * `processador_16bits.circ`: O circuito do processador de 16 bits (versão estendida).
-
+* **`computador_8_bits.circ`**: Contendo o arquivo `.circ` do Logisim com o circuito do processador de 8 bits.
+* **`computador_16_bits.circ`**: O circuito do processador de 16 bits (versão estendida).
+  
 ## Visão Geral do Projeto
 
 Este projeto aborda os princípios fundamentais da computação, desde a lógica de portas (baseada nas NAND Gates, conforme o livro But How Do It Know?) até a execução de programas em uma arquitetura de CPU simples.
