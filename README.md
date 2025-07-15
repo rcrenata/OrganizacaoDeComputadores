@@ -10,7 +10,7 @@
 
 Este projeto aborda os princípios fundamentais da computação, desde a lógica de portas (baseada nas NAND Gates, conforme o livro But How Do It Know?) até a execução de programas em uma arquitetura de CPU simples.
 
-### Processador de 8 bits
+### Computador de 8 bits
 
 * **Arquitetura:** CPU de 8 bits com registradores de propósito geral (`r0`-`r3`), acumulador (`ACC`), registrador de endereço de memória (`MAR`), registrador de instrução (`IR`), e registrador de endereço de instrução (`IAR`).
 * **Memória:** RAM de 256 bytes (endereços de 0x00 a 0xFF).
@@ -18,12 +18,12 @@ Este projeto aborda os princípios fundamentais da computação, desde a lógica
 * **Controle de Fluxo:** Suporte a saltos incondicionais (`JMP`, `JMPR`) e condicionais (`JA`, `JE`, `JZ`, etc.).
 * **I/O:** Instruções de entrada e saída (`IN`, `OUT`) para comunicação com periféricos, no projeto foram adicionados uma porta para entrada/saída, teclado e monitor simulados.
 
-### Processador de 16 bits
+### Computador de 16 bits
 
 * **Extensão:** Uma versão aprimorada do processador de 8 bits, com barramentos e registradores expandidos para 16 bits.
 * **Implicações:** Aumenta a capacidade de endereçamento de memória e a precisão das operações aritméticas. 
 
-## O Montador (`montador.py`)
+### Montador (`montador.py`)
 
 O `montador.py` é uma ferramenta que traduz o código Assembly (mais legível para humanos) para o código de máquina (sequências de bytes hexadecimais) que o processador entende.
 
