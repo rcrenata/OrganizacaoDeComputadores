@@ -1,4 +1,4 @@
-# Renata Rodrigues Coelho - 22251140
+
 
 import sys
 import re
